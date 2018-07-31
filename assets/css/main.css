@@ -1727,7 +1727,9 @@
 
 	header.major h2 {
 		color: #21a9ec;
-		font-size: 3.5em;
+		font-size: 4em;
+		margin-left: -0.45em;
+		width: 115%;
 	}
 
 		header.major h2 + p {
@@ -2503,7 +2505,7 @@
 		#header > footer {
 			bottom: 0;
 			left: 0;
-			padding: 2em;
+			padding: 0.5em;
 			position: absolute;
 			width: 100%;
 		}
@@ -2563,7 +2565,7 @@
 	}
 
 		#main > section > .container {
-			padding: 6em 0 4em 0;
+			padding: 1em 0 1em 0;
 		}
 
 		#main > section:first-child {
