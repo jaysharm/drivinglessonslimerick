@@ -2486,7 +2486,7 @@
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 2.25em auto;
-				width: 8em;
+				width: 12em;
 			}
 
 			#header > header h1 {
@@ -2573,13 +2573,13 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/limerickdrivingschool_header.jpg");
+		background-image: url("../../images/limerick_driving_school_header.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 32.5em;
 		width: 100%;
 	}
 
@@ -2758,7 +2758,7 @@
 		/* One */
 
 			#one:before {
-				height: 10em;
+				height: 25em;
 			}
 
 		/* Off-Canvas Navigation */
@@ -2956,7 +2956,7 @@
 		/* One */
 
 			#one:before {
-				height: 7em;
+				height: 15em;
 			}
 
 		/* Footer */
