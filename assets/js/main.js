@@ -16,6 +16,14 @@
 
 	$(function() {
 
+		var $iframe = $('iframe');
+		$iframe.each(function(){
+			$this = $(this),
+			src = $this.data('src');
+			if (window.matchMedia("(min-width: 480px)").matches) {
+				$this.attr('src', src);
+			}})
+
 		var $body = $('body'),
 			$header = $('#header'),
 			$nav = $('#nav'), $nav_a = $nav.find('a'),
