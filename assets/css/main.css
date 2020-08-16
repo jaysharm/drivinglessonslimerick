@@ -1335,6 +1335,10 @@
 
 	@media screen and (max-width: 480px) {
 
+		.fbfeatures {
+			display: none;
+		 }
+
 		.row > * {
 			padding: 0 0 0 1.25em;
 		}
